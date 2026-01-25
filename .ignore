@@ -1,0 +1,33 @@
+# React Frontend (adjust paths if your folder is named differently)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Spring Boot Backend (adjust paths if your folder is named differently)
+backend/target/
+backend/*.jar
+backend/*.war
+backend/build/
+backend/*.log
+backend/application-local.properties
+backend/application-dev.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE files (global)
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Common
+*.log
+.env
