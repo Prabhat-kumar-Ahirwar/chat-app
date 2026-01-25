@@ -1,23 +1,23 @@
-# React Frontend (adjust paths if your folder is named differently)
-frontend/node_modules/
-frontend/build/
-frontend/dist/
-frontend/.env*
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
+# React Frontend
+chat-app-frontend/node_modules/
+chat-app-frontend/build/
+chat-app-frontend/dist/
+chat-app-frontend/.env*
+chat-app-frontend/npm-debug.log*
+chat-app-frontend/yarn-debug.log*
+chat-app-frontend/yarn-error.log*
 
-# Spring Boot Backend (adjust paths if your folder is named differently)
-backend/target/
-backend/*.jar
-backend/*.war
-backend/build/
-backend/*.log
-backend/application-local.properties
-backend/application-dev.properties
-backend/.mvn/wrapper/maven-wrapper.jar
+# Backend
+chat-app-backend/target/
+chat-app-backend/*.jar
+chat-app-backend/*.war
+chat-app-backend/build/
+chat-app-backend/*.log
+chat-app-backend/application-local.properties
+chat-app-backend/application-dev.properties
+chat-app-backend/.mvn/wrapper/maven-wrapper.jar
 
-# IDE files (global)
+# IDE files
 .vscode/
 .idea/
 *.iml
